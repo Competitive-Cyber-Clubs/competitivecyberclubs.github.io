@@ -1,17 +1,16 @@
 # Dependencies
 markdown:         redcarpet
-highlighter:      pygments
+highlighter:      rb-pygments
 
 # Permalinks
 permalink:        pretty
-#relative_permalinks: true
 
 # Setup
 title:            'Competitive Cyber Clubs'
 tagline:          'Under construction'
 description:      'Under construction'
-url:              http://competitivecyberclubs.org
-baseurl:          /
+url:              http://competitivecyberclubs.org/
+baseurl:          ""
 
 author:
   name:           'Mark Otto'
@@ -20,7 +19,7 @@ author:
 paginate:         5
 
 # Custom vars
-version:          2.1.0
+version:          Under_Construction
 
 github:
-  repo:           https://github.com/competitive-cyber-clubs
+  repo:           https://github.com/competitivecyberclubs/competitivecyberclubs.github.io
