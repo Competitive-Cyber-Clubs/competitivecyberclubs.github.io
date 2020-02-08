@@ -11,7 +11,7 @@ title:            'Competitive Cyber Clubs'
 tagline:          'Under construction'
 description:      'Under construction'
 url:              http://competitivecyberclubs.org
-baseurl:          /
+baseurl:          ''
 
 author:
   name:           'Mark Otto'
