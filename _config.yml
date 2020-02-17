@@ -7,8 +7,8 @@ permalink:        pretty
 
 # Setup
 title:            'Competitive Cyber Clubs'
-tagline:          'Under construction'
-description:      'Under construction'
+tagline:          'Website for Competitive Cyber Clubs'
+description:      'Website for the Competitive Cyber Clubs Discord'
 url:              https://competitivecyberclubs.org/
 baseurl:          ""
 
@@ -19,7 +19,7 @@ author:
 paginate:         5
 
 # Custom vars
-version:          Under_Construction
+version:          0.1
 
 github:
   repo:           https://github.com/competitivecyberclubs/competitivecyberclubs.github.io
