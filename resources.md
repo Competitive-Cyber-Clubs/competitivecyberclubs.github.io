@@ -72,3 +72,6 @@ Technical Oriented Security Videos
 
 [Engineer Man](https://www.youtube.com/channel/UCrUL8K81R4VBzm-KOYwrcxQ/playlists)  
 "informative software engineering videos for a globally diverse audience on topics like JavaScript, Python, C, and Linux"
+
+[John Hammond](https://www.youtube.com/channel/UCVeW9qkBjo3zosnqUbG7CFw)  
+"Security videos and livestreams oriented towards CTFs and penetration testing"
