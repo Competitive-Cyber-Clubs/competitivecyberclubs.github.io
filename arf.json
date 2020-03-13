@@ -1,0 +1,154 @@
+{
+  "children": [
+  {
+    "children": [
+    {
+      "children": [
+      {
+        "name": "CHILD of A-LINK",
+        "type": "url",
+        "url": "https://instantusername.com/"
+      }],
+      "name": "CHILD of A",
+      "type": "folder"
+    },
+    {
+      "children": [
+      {
+        "name": "2A Link",
+        "type": "url",
+        "url": "https://www.google.com/search?q=site:amazon.com+%3Cusername%3E"
+      },
+      {
+        "name": "2A Link",
+        "type": "url",
+        "url": "http://pgp.mit.edu/"
+      }],
+      "name": "CHILD of A 2",
+      "type": "folder"
+    }],
+    "name": "PARENT A",
+    "type": "folder"
+  },
+  {
+    "children": [
+    {
+      "children": [
+      {
+        "name": "CHILD of B-LINK",
+        "type": "url",
+        "url": "https://instantusername.com/"
+      }],
+      "name": "CHILD of B",
+      "type": "folder"
+    },
+    {
+      "children": [
+      {
+        "name": "2B Link",
+        "type": "url",
+        "url": "https://www.google.com/search?q=site:amazon.com+%3Cusername%3E"
+      },
+      {
+        "name": "2B Link",
+        "type": "url",
+        "url": "http://pgp.mit.edu/"
+      }],
+      "name": "CHILD of B 2",
+      "type": "folder"
+    }],
+    "name": "PARENT B",
+    "type": "folder"
+  },{
+    "children": [
+    {
+      "children": [
+      {
+        "name": "Blue Team Link 1",
+        "type": "url",
+        "url": "https://instantusername.com/"
+      }],
+      "name": "Blue Team",
+      "type": "folder"
+    },
+    {
+      "children": [
+      {
+        "name": "Red Team Link 1",
+        "type": "url",
+        "url": "https://www.google.com/search?q=site:amazon.com+%3Cusername%3E"
+      },
+      {
+        "name": "Red Team link 2",
+        "type": "url",
+        "url": "http://pgp.mit.edu/"
+      }],
+      "name": "Red Team",
+      "type": "folder"
+    }],
+    "name": "Linux Resources",
+    "type": "folder"
+  },
+  {
+    "children": [
+    {
+      "children": [
+      {
+        "name": "Blue Team Link 1",
+        "type": "url",
+        "url": "https://instantusername.com/"
+      }],
+      "name": "Blue Team",
+      "type": "folder"
+    },
+    {
+      "children": [
+      {
+        "name": "Red Team Link 1",
+        "type": "url",
+        "url": "https://www.google.com/search?q=site:amazon.com+%3Cusername%3E"
+      },
+      {
+        "name": "Red Team Link 2",
+        "type": "url",
+        "url": "http://pgp.mit.edu/"
+      }],
+      "name": "Red Team",
+      "type": "folder"
+    }],
+    "name": "Windows",
+    "type": "folder"
+  },
+  {
+    "children": [
+    {
+      "children": [
+      {
+        "name": "CHILD of A-LINK",
+        "type": "url",
+        "url": "https://instantusername.com/"
+      }],
+      "name": "CHILD of A",
+      "type": "folder"
+    },
+    {
+      "children": [
+      {
+        "name": "2A Link",
+        "type": "url",
+        "url": "https://www.google.com/search?q=site:amazon.com+%3Cusername%3E"
+      },
+      {
+        "name": "2A Link",
+        "type": "url",
+        "url": "http://pgp.mit.edu/"
+      }],
+      "name": "CHILD of A 2",
+      "type": "folder"
+    }],
+    "name": "PARENT ",
+    "type": "folder"
+  }],
+  "name": "Cyber Resources",
+  "type": "folder"
+}

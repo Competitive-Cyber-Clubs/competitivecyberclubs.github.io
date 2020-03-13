@@ -2,7 +2,8 @@
 
 ## Welcome
 
-This is the source code for the Competitive Cyber Clubs [website](https://competitivecyberclubs.org/). It is using jekyll for creation and GitHub pages for hosting.
+This is the source code for the Competitive Cyber Clubs [website](https://competitivecyberclubs.org/). 
+It is using jekyll for creation and GitHub pages for hosting.
 
 ### Author
 
@@ -11,3 +12,8 @@ The website is using the jekyll theme **Hyde** which was written by Mark Otto [G
 ## License
 
 Open sourced under the [MIT license](LICENSE.md).
+
+## Acknowledgements
+Credits to OSINT-Framework project for the Resources page layout 
+Check out their project here [OSINT Framework](https://github.com/lockfale/osint-framework) 
+
