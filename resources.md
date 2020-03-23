@@ -3,7 +3,7 @@ layout: page
 title: Resources
 ---
 #Go see the BETA Resources Tree Page
-[Resources Tree](https://competitivecyberclubs.org/resources-tree.html)
+[Resources Tree](../resources-tree.html)
 
 This pages contains links to resources that have been requested to be added by our users.
 
