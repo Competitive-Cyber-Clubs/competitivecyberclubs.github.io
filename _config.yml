@@ -16,7 +16,9 @@ author:
   name:           'Mark Otto'
   url:            https://twitter.com/mdo
 
-paginate:         5
+paginate:         3
+
+plugins: [jekyll-paginate]
 
 # Custom vars
 version:          0.1
