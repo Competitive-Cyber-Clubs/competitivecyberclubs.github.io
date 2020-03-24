@@ -6,10 +6,11 @@ Encoding.default_internal = Encoding::UTF_8
 
 gem "bundler"
 gem "jekyll"
-gem "jekyll-paginate"
+gem 'jekyll-paginate'
 gem "jekyll-sitemap"
 gem 'jekyll-feed'
 gem 'jekyll-redirect-from'
+gem 'github-pages'
 gem 'rouge'
 gem 'kramdown'
 
