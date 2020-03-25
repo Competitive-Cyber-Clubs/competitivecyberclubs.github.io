@@ -108,13 +108,20 @@ a.sidebar-nav-item:focus {
 
 @media (min-width: 48em) {
   .sidebar-sticky {
-    /*position: absolute;*/
+    position: absolute;
     right:  1rem;
     bottom: 1rem;
     left:   1rem;
   }
 }
+/* Logo */
 
+.logo {
+  max-width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /* Container
  *
