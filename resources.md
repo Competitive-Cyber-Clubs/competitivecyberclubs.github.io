@@ -4,7 +4,7 @@ title: Resources
 ---
 ## Go see the BETA Resources Tree Page
 
-[Resources Tree](../resources-tree.html)
+[Resources Tree]({{ site.url }}/resources-tree.html)
 
 This pages contains links to resources that have been requested to be added by our users.
 
