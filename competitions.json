@@ -1,0 +1,19 @@
+{
+    "NY" : {
+        "comps" : [
+            {"name" : "RITSEC", "external_site" : "https://www.nationalccdc.org/", "type" : [
+                "ctf"
+            ]}
+        ],
+        "region" : "NE"
+    },
+    "regions" : {
+        "NE" : [
+            {"name" : "NECCDC", "external_site" : "https://www.nationalccdc.org/", "type" : [
+                "red vs blue",
+                "ctf",
+                "IRL"
+            ]}
+        ]
+    }
+}
