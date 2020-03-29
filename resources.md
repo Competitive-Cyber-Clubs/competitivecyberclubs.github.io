@@ -8,6 +8,10 @@ title: Resources
 
 This pages contains links to resources that have been requested to be added by our users.
 
+
+Find competitions for your state! 
+[Competitions List]({{ site.url }}/competitions)
+
 ## Guides
 
 ### Windows
