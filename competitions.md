@@ -55,28 +55,11 @@ title: competitions
 
 		$(document).ready(function() {
 			$('#map').usmap({
-				'stateSpecificStyles': {
-					'AK': {
-						fill: '#f00'
-					}
-				},
-				'stateSpecificHoverStyles': {
-					'HI': {
-						fill: '#ff0'
-					}
-				},
-
-				'mouseoverState': {
-					'HI': function(event, data) {
-						//return false;
-					}
-				},
-
 				'click': function(event, data) {
 					var result = json_obj[data.name]
 					console.log(result);
 					if (result) {
-						var div_content = '<table style="width:100%"><tr><th>Comp Name</th><th>Location</th><th>Site</th><th>Type</th></tr>';
+						var div_content = '<table style="width:130%"><tr><th>Comp Name</th><th>Location</th><th>Site</th><th>Type</th></tr>';
 						var state_comps = result.comps;
 						if (state_comps) {
 							div_content += create_column(state_comps)
@@ -109,5 +92,6 @@ title: competitions
   <div id="map" style="width: 930px; height: 630px; border: solid 3px red;"></div>
 
   <div id="results" style="align: right;"></div>
+
 </body>
 </html>
