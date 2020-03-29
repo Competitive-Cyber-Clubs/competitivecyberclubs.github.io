@@ -36,7 +36,6 @@ title: competitions
 			async: false
 		});
 	};
-
 	$(document).ready(function() {
 	  $('#map').usmap({
 	    'stateSpecificStyles': {
@@ -103,5 +102,51 @@ title: competitions
   <div id="map" style="width: 930px; height: 630px; border: solid 3px red;"></div>
 
   <div id="results" style="align: right;"></div>
+
+	      $('#alert')
+	        .text('Click '+data.name+' on map 1')
+	        .stop()
+	        .css('backgroundColor', '#ff0')
+	        .animate({backgroundColor: '#ddd'}, 1000);
+	    }
+	  });
+	  
+	  $('#map2').usmap({
+	    'stateStyles': {
+	      fill: '#025', 
+	      "stroke-width": 1,
+	      'stroke' : '#036'
+	    },
+	    'stateHoverStyles': {
+	      fill: 'teal'
+	    },
+	    
+	    'click' : function(event, data) {
+	      $('#alert')
+	        .text('Click '+data.name+' on map 2')
+	        .stop()
+	        .css('backgroundColor', '#af0')
+	        .animate({backgroundColor: '#ddd'}, 1000);
+	    }
+	  });
+	  
+	  $('#over-md').click(function(event){
+	    $('#map').usmap('trigger', 'MD', 'mouseover', event);
+	  });
+	  
+	  $('#out-md').click(function(event){
+	    $('#map').usmap('trigger', 'MD', 'mouseout', event);
+	  });
+	});
+	</script>
+</head>
+<body>
+  <div id="alert">Click alerts</div>
+  
+  <div id="map" style="width: 930px; height: 630px; border: solid 3px red;"></div>
+  
+  <button id="over-md">mouseover MD</button> <button id="out-md">mouseout MD</button>
+  <div id="map2" style="width: 300px; height: 300px;"></div>
+
 </body>
 </html>
