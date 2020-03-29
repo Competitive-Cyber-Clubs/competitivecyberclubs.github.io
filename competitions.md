@@ -21,7 +21,7 @@ title: competitions
 	
 	<script src="/public/lib/raphael.js"></script>
 	<!-- <script src="scale.raphael.js"></script> -->
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.js"></script>
 	<script src="/public/lib/color.jquery.js"></script>
 	<script src="/public/lib/jquery.usmap.js"></script>
 	
