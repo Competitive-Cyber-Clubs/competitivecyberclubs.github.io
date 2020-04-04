@@ -9,7 +9,7 @@ permalink:        pretty
 title:            'Competitive Cyber Clubs'
 tagline:          'Website for Competitive Cyber Clubs'
 description:      'Website for the Competitive Cyber Clubs Discord'
-url:              https://competitivecyberclubs.org/
+url:              https://competitivecyberclubs.org
 baseurl:          ""
 
 author:
@@ -24,4 +24,4 @@ plugins: [jekyll-paginate]
 version:          0.1
 
 github:
-  repo:           https://github.com/competitivecyberclubs/competitivecyberclubs.github.io
+  repo:           https://github.com/Competitive-Cyber-Clubs/competitivecyberclubs.github.io
