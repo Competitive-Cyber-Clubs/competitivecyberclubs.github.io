@@ -17,7 +17,7 @@ var vis = d3.select("#body").append("svg:svg")
   .append("svg:g")
     .attr("transform", "translate(" + margin[3] + "," + margin[0] + ")");
 
-d3.json("arf.json", function(json) {
+d3.json("./public/json/arf.json", function(json) {
   root = json;
   root.x0 = height / 2;
   root.y0 = 0;

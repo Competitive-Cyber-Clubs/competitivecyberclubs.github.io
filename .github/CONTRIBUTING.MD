@@ -2,13 +2,17 @@
 
 Thanks for reading to look how to get started with contributing. We are a volunteer organization so we always looking for people to help contribute.
 
+If you are unsure where to contribute, check out the [Projects page](https://github.com/Competitive-Cyber-Clubs/competitivecyberclubs.github.io/projects/1) OR send a message to administrators on the discord. 
+
+Specifically, if you have resources for blue-teams/red-teams or organizers please add them aswell
+
 ## Building local environment
 
 We use jekyll to build our website which is hosted with GitHub Pages. To build everything locally you need to have [Ruby](https://jekyllrb.com/docs/installation/) installed.  
 After you have ruby install then you need to install the [bundler](https://jekyllrb.com/docs/ruby-101/#bundler) gem, then can clone the repo and build from there.
 
 ```bash
-git clone https://github.com/competitivecyberclubs/competitivecyberclubs.github.io.git ccc_website
+git clone https://github.com/Competitive-Cyber-Clubs/competitivecyberclubs.github.io.git ccc_website
 cd ccc_website
 bundle install
 # Edit the code.
