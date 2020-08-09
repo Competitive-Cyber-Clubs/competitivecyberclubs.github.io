@@ -1,0 +1,12 @@
+version: 2
+updates:
+  - package-ecosystem: "bundle"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    assignees:
+      - "Competitive-Cyber-Clubs/admins"
+    commit-message:
+      prefix: "Pip Update"
+    reviewers:
+      - "Competitive-Cyber-Clubs/admins"
