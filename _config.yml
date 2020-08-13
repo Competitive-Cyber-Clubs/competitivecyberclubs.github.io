@@ -1,13 +1,25 @@
 # Dependencies
 markdown:         kramdown
 highlighter:      rouge
-
 # Permalinks
 permalink:        pretty
 
+collections_dir: all_collections
+collections:
+  redteamresources:
+    output: true
+  hosting_comp_resources:
+    output: true
+  blueteamresources:
+    output: true
+  training_websites:
+    output: true
+  posts:
+    output: true
+
 # Setup
 title:            'Competitive Cyber Clubs'
-tagline:          'Website for Competitive Cyber Clubs'
+tagline:          'Website for Competitive Cyber Clubs Community'
 description:      'Website for the Competitive Cyber Clubs Discord'
 url:              https://competitivecyberclubs.org
 baseurl:          ""
@@ -16,7 +28,8 @@ author:
   name:           'Mark Otto'
   url:            https://twitter.com/mdo
 
-paginate:         3
+paginate:         5
+paginate_path: "/all_collections/posts/post:num/"
 
 plugins: [jekyll-paginate]
 
