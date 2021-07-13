@@ -90,11 +90,7 @@ GEM
     http_parser.rb (0.6.0)
     i18n (0.9.5)
       concurrent-ruby (~> 1.0)
-<<<<<<< HEAD
     jekyll (3.9.0)
-=======
-    jekyll (3.8.7)
->>>>>>> master
       addressable (~> 2.4)
       colorator (~> 1.0)
       em-websocket (~> 0.5)
@@ -215,14 +211,6 @@ GEM
       jekyll (>= 3.5, < 5.0)
       jekyll-feed (~> 0.9)
       jekyll-seo-tag (~> 2.1)
-<<<<<<< HEAD
-    multi_json (1.15.0)
-    multipart-post (2.1.1)
-    nokogiri (1.10.10)
-      mini_portile2 (~> 2.4.0)
-    nokogiri (1.10.10-x64-mingw32)
-      mini_portile2 (~> 2.4.0)
-=======
     minimal-mistakes-jekyll (4.24.0)
       jekyll (>= 3.7, < 5.0)
       jekyll-feed (~> 0.1)
@@ -238,24 +226,16 @@ GEM
       racc (~> 1.4)
     nokogiri (1.11.7-x64-mingw32)
       racc (~> 1.4)
->>>>>>> master
     octokit (4.18.0)
       faraday (>= 0.9)
       sawyer (~> 0.8.0, >= 0.5.3)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (3.1.1)
-<<<<<<< HEAD
-    rb-fsevent (0.10.4)
-    rb-inotify (0.10.1)
-      ffi (~> 1.0)
-    rexml (3.2.4)
-=======
     racc (1.5.2)
     rb-fsevent (0.10.4)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
->>>>>>> master
     rouge (3.19.0)
     ruby-enum (0.8.0)
       i18n
@@ -284,10 +264,7 @@ GEM
     unf_ext (0.0.7.7)
     unf_ext (0.0.7.7-x64-mingw32)
     unicode-display_width (1.7.0)
-<<<<<<< HEAD
-=======
     zeitwerk (2.4.2)
->>>>>>> master
 
 PLATFORMS
   ruby
