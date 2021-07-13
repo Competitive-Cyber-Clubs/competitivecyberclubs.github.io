@@ -6,12 +6,13 @@ This is the source code for the Competitive Cyber Clubs [website](https://compet
 
 ### How to Contribute
 
-Check out the [contributing guide](https://github.com/competitivecyberclubs/competitivecyberclubs.github.io/blob/master/CONTRIBUTING.MD) on how to add resources
+If you are looking for ways to contribute to the project, We have an ongoing list of "to-do's" in our [Project Page](https://github.com/Competitive-Cyber-Clubs/competitivecyberclubs.github.io/projects/1)
+
+Check out the [contributing guide](https://github.com/Competitive-Cyber-Clubs/competitivecyberclubs.github.io/blob/master/.github/CONTRIBUTING.MD) on how to add resources
 
 ### Authors
 
 Competitive Cyber Clubs exists as a result of a collaborative effort from all of our members
-The website is using the jekyll theme **Hyde** which was written by Mark Otto [GitHub](https://github.com/mdo) & [Twitter](https://twitter.com/mdo)
 
 ## Acknowledgements
 

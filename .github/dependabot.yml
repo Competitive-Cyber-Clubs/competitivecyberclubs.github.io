@@ -7,6 +7,6 @@ updates:
     assignees:
       - "Competitive-Cyber-Clubs/admins"
     commit-message:
-      prefix: "Pip Update"
+      prefix: "bundle Update"
     reviewers:
       - "Competitive-Cyber-Clubs/admins"

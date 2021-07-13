@@ -2,11 +2,8 @@
 layout: page
 title: Resources
 ---
-## Go see the BETA Resources Tree Page
 
-[Resources Tree]({{ site.url }}/resources-tree.html)
-
-This pages contains links to resources that have been requested to be added by our users.
+Find competitions for your state! 
 
 ## Guides
 
@@ -58,10 +55,18 @@ This pages contains links to resources that have been requested to be added by o
 [overthewire wargames](https://overthewire.org/wargames/)  
 "The wargames offered by the OverTheWire community can help you to learn and practice security concepts in the form of fun-filled games."  
 
+<<<<<<< HEAD
+=======
+[]
+
+>>>>>>> 4be3e224da75ca3aa53f80cbb1a27b1e1a383388
 ### Cloud
 
 [flaws.cloud](http://flaws.cloud/)  
 "CTF like game for cloud security"  
+
+
+
 
 ## Content Creators
 
