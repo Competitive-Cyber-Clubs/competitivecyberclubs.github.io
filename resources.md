@@ -1,28 +1,50 @@
 ---
 layout: page
 title: Resources
+styles: /public/css/btns.css
 ---
+<<<<<<< HEAD
 
 Find competitions for your state! 
+=======
 
-## Guides
+#### This pages contains links to resources that have been requested to be added by our users
 
-### Windows
+If you have a resource to add here, check out the contributing guide
+>>>>>>> master
 
-[Windows Getting Started Guide](https://tinyurl.com/CDOWindowsPrimerfall19)
+#### Check out the competitions map 
+{% include button.html button_name="Competitions Map" button_class="btn--full btn--blue" url="/competitions" %}
 
-[Sysinternals Suite - Part 1](https://tinyurl.com/CDOIntroSys)
+# Red Team Resources
 
-### Linux
+{% for red_team in site.redteamresources %}
+  <h3>{{ red_team.name }}</h3>
+  <p>{{ red_team.content | markdownify }}</p>
+{% endfor %}
 
-#### Web Application
+# Blue Team Resources
 
-[Web Application Defender's Cookbook: CCDC Blue Team Cheatsheet](https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/web-application-defenders-cookbook-ccdc-blue-team-cheatsheet/)  
+{% for blue_team in site.blueteamresources %}
+  <h3>{{ blue_team.name }}</h3>
+  <p>{{ blue_team.content | markdownify }}</p>
+{% endfor %}
 
-[Debian hardening guide](http://firewallingit.blogspot.com/2015/04/ccdc-debian-hardening-guide.html)  
+# CTF Training
 
-## Collegiate Cyber Defense Competition
+{% for ctf in site.training_websites %}
+  <h3>{{ ctf.name }}</h3>
+  <p>{{ ctf.content | markdownify }}</p>
+{% endfor %}
 
+# Hosting Infrastructure
+
+{% for resource in site.hosting_comp_resources %}
+  <h3>{{ resource.name }}</h3>
+  <p>{{ resource.content | markdownify }}</p>
+{% endfor %}
+
+<<<<<<< HEAD
 ### Github Repo's
 
 [How to Win CCDC](https://github.com/mubix/howtowinccdc)  
@@ -84,3 +106,5 @@ Find competitions for your state!
 
 [John Hammond](https://www.youtube.com/channel/UCVeW9qkBjo3zosnqUbG7CFw)  
 "Security videos and livestreams oriented towards CTFs and penetration testing"
+=======
+>>>>>>> master
