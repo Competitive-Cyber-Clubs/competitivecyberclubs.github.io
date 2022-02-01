@@ -6,13 +6,21 @@
 
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	
+    <!-- Add our sources -->
 	<link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico" />
-
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+    <!-- Stolen -->
+    <script src="public\js\leaflet-src.js"></script>
+	<!-- Dont neeeeed it <script src="js/lib/tile.stamen-1.3.0.js"></script> -->
+	
+	<!-- Our data sources -->
+	<script src="public\json\clubsjson"></script>
+	<script src="public\json\geo.geojson"></script>
 
-	<style>
+	<!-- The file that creates the map -->
+	<script src="public/js/script.js"></script>
+    <style>
 		html, body {
 			height: 100%;
 			margin: 0;
@@ -29,14 +37,13 @@
 </head>
 <body>
 
-
-
 <div id="map" style="width: 600px; height: 400px;"></div>
 <script>
-
-	var map = L.map('map').setView([51.505, -0.09], 13);
-
-	var tiles = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
+// Set the map center coords and view 
+	var map = L.map('map').setView([39.8283, -98.5795], 3);
+// fix the keys before deploying
+	
+    var tiles = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
 		maxZoom: 18,
 		attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, ' +
 			'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
@@ -44,39 +51,36 @@
 		tileSize: 512,
 		zoomOffset: -1
 	}).addTo(map);
+    for (var num = 0; num < schools.length; num++) {
+	// Grab information on the school we are currently looping through
+	var school = schools[num];
+	var school_lat = school["latitude"];
+	var school_long = school["longitude"];
+	var school_name = school["school"];
+	var school_address = school["address"];
+	var school_city = school["city"];
+    var school_club = school["club"];
+    var school_website = school["website"];
 
-	var marker = L.marker([51.5, -0.09]).addTo(map)
-		.bindPopup('<b>Hello world!</b><br />I am a popup.').openPopup();
+	// Use Leaflet to add a marker for each school
+	// And give it the lat, long information
+	// In the current school's object
+	var marker = L.marker([school_lat, school_long]).addTo(map);
+	
+	// HTML that will appear in popup
+	var popup_html = '<h3>' + school_name + '</h3>';
+	popup_html += '<h3>' + school_club + '</h3>'
+    popup_html += '<href>' + school_website + '</href>'
+    popup_html += '<div>' + school_address + '</div>';
+	popup_html += '<div>' + school_city + '</div>'
+    
 
-	var circle = L.circle([51.508, -0.11], {
-		color: 'red',
-		fillColor: '#f03',
-		fillOpacity: 0.5,
-		radius: 500
-	}).addTo(map).bindPopup('I am a circle.');
-
-	var polygon = L.polygon([
-		[51.509, -0.08],
-		[51.503, -0.06],
-		[51.51, -0.047]
-	]).addTo(map).bindPopup('I am a polygon.');
-
-
-	var popup = L.popup()
-		.setLatLng([51.513, -0.09])
-		.setContent('I am a standalone popup.')
-		.openOn(map);
-
-	function onMapClick(e) {
-		popup
-			.setLatLng(e.latlng)
-			.setContent('You clicked the map at ' + e.latlng.toString())
-			.openOn(map);
-	}
-
-	map.on('click', onMapClick);
-
-</script>
+	// Bind the popup to the marker using Leaflet
+	marker.bindPopup(popup_html);
+}
+	var marker = L.marker([39.8283, -98.5795]).addTo(map)
+		.bindPopup('<b>Hello!</b><br />I am a popup.').openPopup();
+ </script>
 
 
 
