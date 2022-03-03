@@ -34,7 +34,7 @@ paginate_path: "/all_collections/posts/post:num/"
 plugins: [jekyll-paginate]
 
 # Custom vars
-version:          0.1
+version:          0.2
 
 github:
   repo:           https://github.com/Competitive-Cyber-Clubs/competitivecyberclubs.github.io
