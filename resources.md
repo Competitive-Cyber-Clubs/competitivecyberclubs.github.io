@@ -3,15 +3,8 @@ layout: page
 title: Resources
 styles: /public/css/btns.css
 ---
-<<<<<<< HEAD
 
 Find competitions for your state! 
-=======
-
-#### This pages contains links to resources that have been requested to be added by our users
-
-If you have a resource to add here, check out the contributing guide
->>>>>>> master
 
 #### Check out the competitions map 
 {% include button.html button_name="Competitions Map" button_class="btn--full btn--blue" url="/competitions" %}
@@ -44,7 +37,6 @@ If you have a resource to add here, check out the contributing guide
   <p>{{ resource.content | markdownify }}</p>
 {% endfor %}
 
-<<<<<<< HEAD
 ### Github Repo's
 
 [How to Win CCDC](https://github.com/mubix/howtowinccdc)  
@@ -77,11 +69,7 @@ If you have a resource to add here, check out the contributing guide
 [overthewire wargames](https://overthewire.org/wargames/)  
 "The wargames offered by the OverTheWire community can help you to learn and practice security concepts in the form of fun-filled games."  
 
-<<<<<<< HEAD
-=======
-[]
 
->>>>>>> 4be3e224da75ca3aa53f80cbb1a27b1e1a383388
 ### Cloud
 
 [flaws.cloud](http://flaws.cloud/)  
@@ -106,5 +94,3 @@ If you have a resource to add here, check out the contributing guide
 
 [John Hammond](https://www.youtube.com/channel/UCVeW9qkBjo3zosnqUbG7CFw)  
 "Security videos and livestreams oriented towards CTFs and penetration testing"
-=======
->>>>>>> master
