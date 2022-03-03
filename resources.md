@@ -4,10 +4,11 @@ title: Resources
 styles: /public/css/btns.css
 ---
 
-Find competitions for your state! 
+<!-- 
+#### Find competitions for your state! 
 
 #### Check out the competitions map 
-{% include button.html button_name="Competitions Map" button_class="btn--full btn--blue" url="/competitions" %}
+{% include button.html button_name="Competitions Map" button_class="btn--full btn--blue" url="/competitions" %} -->
 
 # Red Team Resources
 
@@ -19,14 +20,14 @@ Find competitions for your state!
 # Blue Team Resources
 
 {% for blue_team in site.blueteamresources %}
-  <h3>{{ blue_team.name }}</h3>
+  <h3>{{ blue_team.name }} </h3>
   <p>{{ blue_team.content | markdownify }}</p>
 {% endfor %}
 
 # CTF Training
 
 {% for ctf in site.training_websites %}
-  <h3>{{ ctf.name }}</h3>
+  <h3>{{ ctf.name }}<br></h3> 
   <p>{{ ctf.content | markdownify }}</p>
 {% endfor %}
 
@@ -34,7 +35,7 @@ Find competitions for your state!
 
 {% for resource in site.hosting_comp_resources %}
   <h3>{{ resource.name }}</h3>
-  <p>{{ resource.content | markdownify }}</p>
+  <p>{{ resource.content | markdownify }}</p> 
 {% endfor %}
 
 ### Github Repo's
