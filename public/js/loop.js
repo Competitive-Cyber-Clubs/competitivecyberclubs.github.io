@@ -65,8 +65,5 @@ for (var num = 0; num < schools.length; num++) {
     // Bind the popup to the marker using Leaflet
     marker.bindPopup(popup_html);
 }
-var marker = L.marker([39.8283, -98.5795]).addTo(map)
-    .bindPopup('<b>Hello!</b><br />I am a popup.').openPopup();
-
 
     var sidebar = L.control.sidebar('sidebar').addTo(map);

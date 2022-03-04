@@ -29,15 +29,4 @@ var schools = [
         "longitude":-73.8248,
         "isredvsblue":false,
         "isctf":true},
-    {"school":"School Name",
-        "address":"123 School Address Road\n",
-        "club":"Club Name",
-        "city":"City, State Zip",
-        "phone":"(555) 555-5555",
-        "website":"https://www.schoolwebsite.club/",
-        "latitude":0,
-        "longitude":-0,
-        "isredvsblue":true,
-        "isctf":false},
-    
     ]
