@@ -22,6 +22,13 @@ bundle exec jekyll serve
 
 then you will be able to browse to `localhost:4000` to view the site.
 
+## Adding a resource
+
+Adding a resource is done by editing the markdown page relavent to the resource category. You can find all the categories and markdown pages under the /all_collections/ folder. (https://github.com/Competitive-Cyber-Clubs/competitivecyberclubs.github.io/tree/master/all_collections)
+
+Edit the relavent .md page, make a pull request
+
+
 ## Style Guide
 
 Jekyll uses markdown for formatting of post and page creation. There is a [style guide](Style-Guide.md) that you can refer to when getting started. There are also numerous markdown cheatsheets available if you search for them.

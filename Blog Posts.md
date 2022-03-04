@@ -1,6 +1,7 @@
 ---
-layout: default
-title: Blog
+layout: page
+title: Blog Posts 
+
 ---
 
 <div class="posts">
