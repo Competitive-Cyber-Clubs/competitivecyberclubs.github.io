@@ -3,7 +3,9 @@ name: Blue Team Cheat Sheets
 type: cheat_sheets
 ---
 
-[Blue Team Cheatsheet description](https://google.com) | This is the description for awesome Blue Team Cheat-Sheet
+[Sans Defense Guides](https://wiki.sans.blue/#!index.md) | Collection of pocket guides and cheat-sheets from SANS
+[Awesome Cybersecurity BlueTeam](https://github.com/fabacab/awesome-cybersecurity-blueteam) | A collection of awesome resources, tools, and other shiny things for cybersecurity blue teams.
+
 
 
 

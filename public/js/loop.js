@@ -3,7 +3,6 @@ var sidebar = L.control.sidebar('sidebar').addTo(map);
 var map = L.map('map').setView([39.8283, -98.5795], 3);
 
 // Make the icons
-
 var standard = L.Icon.extend({
     options: {
         iconSize:     [32, 32],
@@ -42,28 +41,32 @@ for (var num = 0; num < schools.length; num++) {
     var isrvb = school["isredvsblue"];
 
     // Add this back when we have actual icons
-    // var isctfbool = isctf == 'true';
-    // if (isctf = true){
-    //     L.marker([school_lat, school_long], {icon: ctficon}).addTo(map);
-    // } else if ( isredvsblue = true ) {
-    //     L.marker([school_lat, school_long], {icon: redvsblueIcon}).addTo(map);
-    // }
+    var isctfbool = isctf == 'true';
+    if (isctf = true){
+        //L.marker([school_lat, school_long], {icon: ctficon}).addTo(map);
+        L.marker([school_lat, school_long]).addTo(map);
+    } else if ( isredvsblue = true ) {
+        // L.marker([school_lat, school_long], {icon: redvsblueIcon}).addTo(map);
+        L.marker([school_lat, school_long]).addTo(map);
+
+    }
 
     // Use Leaflet to add a marker for each school
     // And give it the lat, long information
     // In the current school's object
 
-        
+    
     var marker = L.marker([school_lat, school_long]).addTo(map);
     
+
     // HTML that will appear in popup
     var popup_html = '<h3>' + school_name + '</h3>';
         popup_html += '<h3>' + school_club + '</h3>'
-        popup_html += '<href>' + school_website + '</href>'
+        popup_html += '<a href="' + school_website + '">Website</href></a>'
         popup_html += '<div>' + school_address + '</div>';
         popup_html += '<div>' + school_city + '</div>'
     // Bind the popup to the marker using Leaflet
     marker.bindPopup(popup_html);
 }
 
-    var sidebar = L.control.sidebar('sidebar').addTo(map);
+    //var sidebar = L.control.sidebar('sidebar').addTo(map);

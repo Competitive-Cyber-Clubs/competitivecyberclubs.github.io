@@ -5,7 +5,7 @@
     <title>Competitive Cyber Clubs Map</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    
+    <link rel="shortcut icon" href="/public/images/ccc.png" type="image/x-icon" />
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.1/dist/leaflet.css" />
     <link rel="stylesheet" href="public/css/leaflet-sidebar.css" />
@@ -38,7 +38,7 @@
             <ul role="tablist">
                 <li><a href="#home" role="tab"><i class="fa fa-bars"></i></a></li>
                 <li><a href="#profile" role="tab"><i class="fa fa-user"></i></a></li>
-                <li class="disabled"><a href="#messages" role="tab"><i class="fa fa-envelope"></i></a></li>
+                <li class="#search"><a href="#search" role="tab"><i class="fa fa-search "></i></a></li>
                 <li><a href="https://github.com/Turbo87/sidebar-v2" role="tab" target="_blank"><i class="fa fa-github"></i></a></li>
             </ul>
 
@@ -58,20 +58,22 @@
                     <p>A map of all the cyber competitions in the United States</p>
                 </div>
                 <h3>Legend:</h3>
-                <label class="switch"><input type="checkbox" id="rvb" checked><span class="slider round"></span></label>&nbsp;<img src="public/images/icons/redvblue.png"> Red vs Blue team<br />
+                <!-- <label class="switch"><input type="checkbox" id="rvb" checked><span class="slider round"></span></label>&nbsp;<img src="public/images/icons/redvblue.png"> Red vs Blue team<br /> -->
+                <label class="switch"><input type="checkbox" id="rvb" checked><span class="slider round"></span></label>&nbsp;<i class="fa-solid fa-flag-swallowtail"></i>Red vs Blue team<br />
                 <label class="switch"><input type="checkbox" id="ctf" checked><span class="slider round"></span></label>&nbsp;<img src="public/images/icons/ctf32.png"> Capture the Flag<br />
-                
+            
                 <br />
                 <strong>What is a Red vs Blue team?</strong>
-                <p class="lorem">Description </p>
+                <p class="lorem">Description</p>
+
             </div>
 
             <div class="sidebar-pane" id="profile">
                 <h1 class="sidebar-header">Profile<span class="sidebar-close"><i class="fa fa-caret-left"></i></span></h1>
             </div>
 
-            <div class="sidebar-pane" id="messages">
-                <h1 class="sidebar-header">Messages<span class="sidebar-close"><i class="fa fa-caret-left"></i></span></h1>
+            <div class="sidebar-pane" id="Search">
+                <h1 class="sidebar-header">Search<span class="sidebar-close"><i class="fa fa-caret-left"></i></span></h1>
             </div>
 
             <div class="sidebar-pane" id="settings">

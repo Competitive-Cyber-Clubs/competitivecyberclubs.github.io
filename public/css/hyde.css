@@ -94,7 +94,8 @@ html {
 }
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
-  text-decoration: underline;
+  text-decoration: none; 
+  color: #007ec4;
 }
 .sidebar-nav-item.active {
   font-weight: bold;
@@ -266,7 +267,13 @@ a.sidebar-nav-item:focus {
   color: #8f5536;
 }
 
-
+.footer{
+  position:absolute;
+  bottom:0;
+  width:75%;
+  height:50px;
+  background-color:#6a9fb5
+}
 
 /* Share buttons */
 .sharebuttons {
